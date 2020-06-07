@@ -186,7 +186,7 @@ public class NA1UI extends javax.swing.JFrame {
      // TODO add your handling code here:
      int age = Integer.parseInt(jTextField1.getText());
      float height = Float.parseFloat(jTextField2.getText());
-     int weight = Integer.parseInt(jTextField3.getText());
+     float weight = Float.parseFloat(jTextField3.getText());
      double result=0;
      if(male){
         result = (66 + (6.3 * weight * 2.2046226218) + (12.9 * height * 39.3701) - (6.8 * age))/0.7;
@@ -204,7 +204,7 @@ public class NA1UI extends javax.swing.JFrame {
        // TODO add your handling code here:
        backCount++;
        if(backCount<1){
-        new Menu().setVisible(true);
+           new Menu().setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
     }
     private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
